@@ -1,3 +1,30 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
+
+nav {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    list-style: none;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
